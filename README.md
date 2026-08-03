@@ -9,7 +9,6 @@ This directory is a compact paper-reproduction package for operation-aware sub-t
 - `src/table_localization/common/swift_infer_backend.py`: Llama 3.3 inference through the existing `swift_infer` conda runtime.
 - `data/silver_subtables/`: JSONL silver sub-table datasets produced by our method.
 - `results/ours/`: generated sub-tables, QA outputs, and accuracy logs kept under stable names.
-- `paper/table_decomp_revised.pdf`: the paper draft.
 
 ## Environment
 
@@ -92,15 +91,17 @@ SUBTABLE_JSONL=/path/to/subtables.jsonl MODEL=gpt5-mini DATASET=wikitq ./scripts
 
 These are the retained experiment outputs found in the original directory. Some WikiTQ/llama logs are partial runs; use the line counts in the files as the exact covered subset.
 
-## Clean Layout
+## Dataset Link
+
+You can download by `https://figshare.com/s/41a54cfac3a4aa13b98c`
+
+## Layout
 
 ```text
 .
 ├── data/
 │   ├── slqa.jsonl
 │   └── silver_subtables/
-├── paper/
-│   └── table_decomp_revised.pdf
 ├── results/
 │   └── ours/
 │       ├── accuracy/
