@@ -1,4 +1,4 @@
-# Operation-Aware Table Localization
+# TabScope: Operation-Aware Table Localization
 
 This directory is a compact paper-reproduction package for operation-aware sub-table retrieval and QA evaluation.
 
