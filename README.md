@@ -87,10 +87,8 @@ SUBTABLE_JSONL=/path/to/subtables.jsonl MODEL=gpt5-mini DATASET=wikitq ./scripts
 
 | Dataset | Model | Silver sub-table JSONL | QA JSONL | Accuracy log | Final logged accuracy |
 |---|---|---|---|---|---|
-| WikiTQ | GPT-5 mini | `results/ours/subtables/gpt5mini_opaware_wikitq.jsonl` | `results/ours/qa/gpt5mini_opaware_wikitq_qa.jsonl` | `results/ours/accuracy/gpt5mini_opaware_wikitq_acc.jsonl` | 1556/1895 = 0.8211, skipped 5 |
-| SLQA | GPT-5 mini | `results/ours/subtables/gpt5mini_opaware_slqa.jsonl` | `results/ours/qa/gpt5mini_opaware_slqa_qa.jsonl` | `results/ours/accuracy/gpt5mini_opaware_slqa_acc.jsonl` | 756/1099 = 0.6879, skipped 11 |
-| WikiTQ | Llama 3.3 | `results/ours/subtables/llama33_opaware_wikitq.jsonl` | `results/ours/qa/llama33_opaware_wikitq_qa.jsonl` | `results/ours/accuracy/llama33_opaware_wikitq_acc.jsonl` | 272/370 = 0.7351 |
-| SLQA | Llama 3.3 | `results/ours/subtables/llama33_opaware_slqa.jsonl` | `results/ours/qa/llama33_opaware_slqa_qa.jsonl` | `results/ours/accuracy/llama33_opaware_slqa_acc.jsonl` | 94/150 = 0.6267 |
+| WikiTQ | GPT-5 mini | `results/ours/subtables/gpt5mini_opaware_wikitq.jsonl` | `results/ours/qa/gpt5mini_opaware_wikitq_qa.jsonl` | `results/ours/accuracy/gpt5mini_opaware_wikitq_acc.jsonl` | 1556/1895 = 0.8211 |
+| SLQA | GPT-5 mini | `results/ours/subtables/gpt5mini_opaware_slqa.jsonl` | `results/ours/qa/gpt5mini_opaware_slqa_qa.jsonl` | `results/ours/accuracy/gpt5mini_opaware_slqa_acc.jsonl` | 756/1099 = 0.6879 |
 
 These are the retained experiment outputs found in the original directory. Some WikiTQ/llama logs are partial runs; use the line counts in the files as the exact covered subset.
 
