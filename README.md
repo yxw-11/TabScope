@@ -6,7 +6,7 @@
 
 TabScope is a question-adaptive framework for table question answering that selects between localized and full-table reasoning.
 
-[![TabScope Overview](./model.png)]
+![TabScope Overview](./model.png)
 
 ## File Content
 
