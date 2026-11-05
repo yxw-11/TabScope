@@ -99,6 +99,8 @@ These are the retained experiment outputs found in the original directory. Some 
 
 ## Dataset Link
 
+Including our proposed: SLQA and WTQ-SUBTAB.
+
 You can download by `https://figshare.com/s/41a54cfac3a4aa13b98c`
 
 ## Layout
