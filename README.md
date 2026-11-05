@@ -2,11 +2,10 @@
 
 **Accepted at ALTA 2026**
 
-📄 **[Model Overview](./model.pdf)** 
-
 ## Overview
 
 TabScope is a question-adaptive framework for table question answering that selects between localized and full-table reasoning.
+[![TabScope Overview](./model.png)](./model.pdf)
 
 ## File Content
 
@@ -117,6 +116,18 @@ You can download by `https://figshare.com/s/41a54cfac3a4aa13b98c`
 │   ├── run_qa.sh
 │   └── run_retrieval.sh
 └── src/table_localization/
+
+
+## Citation
+
+If you find our work useful, please cite:
+
+    @article{wang2026tabscope,
+      title={TabScope: Question-Adaptive Scope Selection for Table Question Answering},
+      author={Wang, Yuxiang and Gan, Junhao and Qi, Jianzhong},
+      journal={arXiv preprint arXiv:2609.03395},
+      year={2026}
+    }
     ├── common/
     ├── evaluate/
     ├── qa/
