@@ -1,5 +1,13 @@
 # TabScope: Operation-Aware Table Localization
 
+**Accepted at ALTA 2026**
+
+📄 **[Model Overview](./model.pdf)** 
+
+## Overview
+
+TabScope is a question-adaptive framework for table question answering that selects between localized and full-table reasoning.
+
 ## File Content
 
 - `src/table_localization/retrieval/operation_aware_retrieval.py`: Operation-Aware Table Localization retrieval. It samples `f_col` and `f_row`, adds operation guidance, reconciles row/column candidates, and writes silver sub-table records.
