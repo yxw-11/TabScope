@@ -1,8 +1,6 @@
 # TabScope: Operation-Aware Table Localization
 
-This directory is a compact paper-reproduction package for operation-aware sub-table retrieval and QA evaluation.
-
-## What Is Kept
+## File Content
 
 - `src/table_localization/retrieval/operation_aware_retrieval.py`: Operation-Aware Table Localization retrieval. It samples `f_col` and `f_row`, adds operation guidance, reconciles row/column candidates, and writes silver sub-table records.
 - `src/table_localization/qa/evaluate_retrieved_qa.py`: QA evaluation after retrieval. It runs COT QA on the retrieved sub-table, saves predictions, and appends checkpoint accuracy logs.
