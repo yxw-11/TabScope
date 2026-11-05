@@ -5,7 +5,8 @@
 ## Overview
 
 TabScope is a question-adaptive framework for table question answering that selects between localized and full-table reasoning.
-[![TabScope Overview](./model.png)](./model.pdf)
+
+[![TabScope Overview](./model.pdf)
 
 ## File Content
 
@@ -117,7 +118,7 @@ You can download by `https://figshare.com/s/41a54cfac3a4aa13b98c`
 │   └── run_retrieval.sh
 └── src/table_localization/
 
-
+```
 ## Citation
 
 If you find our work useful, please cite:
@@ -132,4 +133,3 @@ If you find our work useful, please cite:
     ├── evaluate/
     ├── qa/
     └── retrieval/
-```
